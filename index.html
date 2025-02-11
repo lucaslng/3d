@@ -8,9 +8,13 @@
 </head>
 <body>
 	<a-scene>
-		<a-sphere position="-2 1.25 -4" radius="2" color="#EF2D5E"></a-sphere>
+		<a-assets>
+			<a-asset-item id="yes" src="resources/helluva_boss_loona_model_by_dogzeela_showcase/scene.gltf"></a-asset-item>
+		</a-assets>
+		<!-- <a-sphere position="-2 1.25 -4" radius="2" color="#EF2D5E"></a-sphere>
 		<a-sphere position="2 1.25 -4" radius="2" color="#EF2D5E"></a-sphere>
-		<a-cylinder position="0 5 -4" radius="1" height="10" color="#FFC65D"></a-cylinder>
+		<a-cylinder position="0 5 -4" radius="1" height="10" color="#FFC65D"></a-cylinder> -->
+		<a-entity gltf-model="#yes" scale="0.1 0.1 0.1"</a-entity>
 		<a-sky color="#ECECEC"></a-sky>
 	</a-scene>
 </body>
