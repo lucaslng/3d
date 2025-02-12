@@ -13,14 +13,25 @@
 			<a-asset-item id="m2ssd" src="resources/m2ssd/scene.gltf"> </a-asset-item>
 			<a-asset-item id="psu" src="resources/psu/scene.gltf"> </a-asset-item>
 		</a-assets>
+		<a-plane color="#666" height="100" width="80" rotation="-90 0 0" position="0 -1 -40"></a-plane>
+		<a-sky color="#222"></a-sky>
+
 		<a-entity text="value: Computer Components Website; align: center; side: double;" position="0 2.5 -5" scale="20 20 20"></a-entity>
 		<a-entity text="value: Use WASD or arrows to move around; align: center; side: double;" position="0 1 -5" scale="8 8 8"></a-entity>
 		<a-entity text="value: Hold left click to drag the camera; align: center; side: double;" position="0 0 -5" scale="8 8 8"></a-entity>
 		
-		<a-entity text="value: Input; align: center" position="-10 1.5, -8" scale="20 20 20"></a-entity>
+		<a-entity text="value: Input; align: center; side: double;" position="-20 1.5, -16" scale="20 20 20"></a-entity>
+		<a-entity text="value: Process; align: center; side: double;" position="-10 1.5, -16" scale="20 20 20"></a-entity>
+		<a-entity text="value: Storage; align: center; side: double;" position="0 1.5, -16" scale="20 20 20"></a-entity>
+		<a-entity text="value: Output; align: center; side: double;" position="10 1.5, -16" scale="20 20 20"></a-entity>
+		<a-entity text="value: Control; align: center; side: double;" position="20 1.5, -16" scale="20 20 20"></a-entity>
+
+		<a-box color="#999" depth="5" height="1" width="5" position="-25 0 -25a"></a-box>
+		<a-box color="#999" depth="5" height="1" width="5" position="-25 0 -35a"></a-box>
+		<a-box color="#999" depth="5" height="1" width="5" position="-25 0 -45a"></a-box>
+		<a-box color="#999" depth="5" height="1" width="5" position="-25 0 -55a"></a-box>
+		
 		<a-entity gltf-model="#intel_cpu" scale="2 2 2"></a-entity>
-		<!-- <a-entity gltf-model="#toilet"></a-entity> -->
-		<a-sky color="black"></a-sky>
 	</a-scene>
 </body>
 </html>
