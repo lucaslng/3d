@@ -1,0 +1,11 @@
+Model Information:
+* title:	m2ssd_Painter
+* source:	https://sketchfab.com/3d-models/m2ssd-painter-ccda7c201091445087c02692444641c2
+* author:	Igor.Jop (https://sketchfab.com/Igor.Jop)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "m2ssd_Painter" (https://sketchfab.com/3d-models/m2ssd-painter-ccda7c201091445087c02692444641c2) by Igor.Jop (https://sketchfab.com/Igor.Jop) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
