@@ -10,9 +10,29 @@
 </head>
 
 <body>
-	<a-scene>
+	<a-scene background="color: #222">
+		<a-assets>
+			<a-asset-item id="cpu" src="models/cpu/scene.gltf"></a-asset-item>
+			<a-asset-item id="3d_printer" src="models/3d_printer/scene.gltf"></a-asset-item>
+			<a-asset-item id="external_hdd" src="models/external_hdd/scene.gltf"></a-asset-item>
+			<a-asset-item id="keyboard" src="models/keyboard/scene.gltf"></a-asset-item>
+			<a-asset-item id="microphone" src="models/microphone/scene.gltf"></a-asset-item>
+			<a-asset-item id="mobo" src="models/mobo/scene.gltf"></a-asset-item>
+			<a-asset-item id="modem" src="models/modem/scene.gltf"></a-asset-item>
+			<a-asset-item id="monitor" src="models/monitor/scene.gltf"></a-asset-item>
+			<a-asset-item id="mouse" src="models/mouse/scene.gltf"></a-asset-item>
+			<a-asset-item id="printer" src="models/printer/scene.gltf"></a-asset-item>
+			<a-asset-item id="printer_scanner" src="models/printer_scanner/scene.gltf"></a-asset-item>
+			<a-asset-item id="psu" src="models/psu/scene.gltf"></a-asset-item>
+			<a-asset-item id="ram" src="models/ram/scene.gltf"></a-asset-item>
+			<a-asset-item id="router" src="models/router/scene.gltf"></a-asset-item>
+			<a-asset-item id="sound_card" src="models/sound_card/scene.gltf"></a-asset-item>
+			<a-asset-item id="speaker" src="models/speaker/scene.gltf"></a-asset-item>
+			<a-asset-item id="ssd" src="models/ssd/scene.gltf"></a-asset-item>
+			<a-asset-item id="webcam" src="models/webcam/scene.gltf"></a-asset-item>
+		</a-assets>
+
 		<a-plane color="#666" height="100" width="80" rotation="-90 0 0" position="0 -1 -40"></a-plane>
-		<a-sky color="#222"></a-sky>
 
 		<a-entity text="value: Computer Components Website; align: center; side: double;" position="0 2.5 -5"
 			scale="20 20 20"></a-entity>

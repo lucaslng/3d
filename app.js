@@ -248,7 +248,7 @@ function run() {
       scene.appendChild(box);
 
       const model = document.createElement("a-gltf-model");
-      model.setAttribute("src", `resources/${item.modelSrc}/scene.gltf`);
+      model.setAttribute("src", `#${item.modelSrc}`);
       model.setAttribute(
         "position",
         `${xBox + item.modelXOffset} ${item.modelY} ${zBox}`
