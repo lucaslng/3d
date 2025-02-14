@@ -1,0 +1,11 @@
+Model Information:
+* title:	Printer
+* source:	https://sketchfab.com/3d-models/printer-235b537091e54281ada1ba3692816e0b
+* author:	igor-tkachenko (https://sketchfab.com/igor-tkachenko)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Printer" (https://sketchfab.com/3d-models/printer-235b537091e54281ada1ba3692816e0b) by igor-tkachenko (https://sketchfab.com/igor-tkachenko) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

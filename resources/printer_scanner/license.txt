@@ -1,0 +1,11 @@
+Model Information:
+* title:	MFP Office Printer
+* source:	https://sketchfab.com/3d-models/mfp-office-printer-d55f6fca7c3d45c883bbff770672970d
+* author:	Red Fox / nokillnando (https://sketchfab.com/nokillnando)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "MFP Office Printer" (https://sketchfab.com/3d-models/mfp-office-printer-d55f6fca7c3d45c883bbff770672970d) by Red Fox / nokillnando (https://sketchfab.com/nokillnando) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

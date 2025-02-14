@@ -1,0 +1,8 @@
+Model Information:
+* title:	Computer Hard Drive
+* source:	https://sketchfab.com/3d-models/computer-hard-drive-b3aca078cfc343128ec3cf64989d523c
+* author:	arloopa (https://sketchfab.com/arloopa)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

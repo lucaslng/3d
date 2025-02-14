@@ -4,21 +4,13 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Computer Components Website</title>
 	<script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
 	<script src="items.js" defer></script>
-	<script src="description-text.js"></script>
-	<script src="description-heading.js"`></script>
 </head>
 
 <body>
 	<a-scene>
-		<a-assets>
-			<a-mixin id="box" geometry="primitive: box; width: 5; height: 1; depth: 5" material="color: #999"></a-mixin>
-			<a-asset-item id="intel_cpu" src="resources/intel_cpu/scene.gltf"> </a-asset-item>
-			<a-asset-item id="m2ssd" src="resources/m2ssd/scene.gltf"> </a-asset-item>
-			<a-asset-item id="psu" src="resources/psu/scene.gltf"> </a-asset-item>
-		</a-assets>
 		<a-plane color="#666" height="100" width="80" rotation="-90 0 0" position="0 -1 -40"></a-plane>
 		<a-sky color="#222"></a-sky>
 
@@ -28,7 +20,6 @@
 			scale="8 8 8"></a-entity>
 		<a-entity text="value: Hold left click to drag the camera; align: center; side: double;" position="0 0 -5"
 			scale="8 8 8"></a-entity>
-			
 	</a-scene>
 </body>
 
