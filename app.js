@@ -262,25 +262,35 @@ function run() {
 
       const xText = xBox + 2;
       const zText = zBox + 5;
-      const heading = document.createElement("a-entity");
-      heading.setAttribute(
-        "text",
-        `value: ${item.name}; align: center; side: double; color: #FFF;`
-      );
+      const heading = document.createElement("a-text");
+      heading.setAttribute("value", `${item.name}`);
+      heading.setAttribute("align", "center");
+      heading.setAttribute("side", "double");
+      heading.setAttribute("color", "#FFF");
       heading.setAttribute("position", `${xText} 2.6 ${zText}`);
-      heading.setAttribute("scale", "12 12 12");
+      heading.setAttribute("scale", "2 2 2");
       heading.setAttribute("rotation", "0 90 0");
       scene.appendChild(heading);
 
-      const description = document.createElement("a-entity");
-      description.setAttribute(
-        "text",
-        `value: ${item.description}\nTypical cost: ${item.cost}; align: center; baseline: top; side: double; color: #FFF; width: 0.2;`
-      );
+      const description = document.createElement("a-text");
+      description.setAttribute("value", `${item.description}\nTypical cost: ${item.cost}`);
+      description.setAttribute("align", "center");
+      description.setAttribute("baseline", "top");
+      description.setAttribute("side", "double");
+      description.setAttribute("color", "#FFF");
+      description.setAttribute("width", "0.2");
       description.setAttribute("position", `${xText} 2 ${zText}`);
       description.setAttribute("scale", "20 20 20");
       description.setAttribute("rotation", "0 90 0");
       scene.appendChild(description);
+
+      const background = document.createElement("a-plane");
+      background.setAttribute("height", "2.3");
+      background.setAttribute("width", "4.2");
+      background.setAttribute("position", `${xText} 1 ${zText}`);
+      background.setAttribute("rotation", "0 90 0");
+      background.setAttribute("material", "color: #AAAAAA; opacity: 0.9; transparent: true");
+      scene.appendChild(background);
     });
   });
 }
